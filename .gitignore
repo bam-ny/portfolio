@@ -1,0 +1,12 @@
+.DS_Store
+.claude/scheduled_tasks.lock
+
+# Raw design-export folders not used by the live site
+# (the site references assets/ instead)
+BabySteps/
+Provider Directory/
+AI-Translated Dashboard/
+Font/
+homepage preview/
+Homepage.png
+Project 1.png

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Provider Directory — .bam</title>
+<meta name="description" content="Redesigning how 150,000+ First Nations people in BC find culturally safe mental health care." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="logo" href="index.html">.bam</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Projects</a></li>
+    <li><a href="archives.html">Work Archives</a></li>
+    <li><a href="about.html">About Me</a></li>
+  </ul>
+  <a class="btn-pill btn-pill--accent" href="#" target="_blank" rel="noopener">Resume</a>
+</nav>
+
+<header class="case-hero">
+  <h1>Provider Directory</h1>
+  <p class="case-subtitle">Redesigning how 150,000+ First Nations people in BC find culturally safe mental health care.</p>
+</header>
+
+<div class="rule"></div>
+
+<section class="meta-grid">
+  <div class="meta-item">
+    <div class="meta-label">Role</div>
+    <div class="meta-value">UX Researcher, UX/UI Designer</div>
+  </div>
+  <div class="meta-item">
+    <div class="meta-label">Tool</div>
+    <div class="meta-value">Figma</div>
+  </div>
+  <div class="meta-item">
+    <div class="meta-label">Project Client</div>
+    <div class="meta-value">First Nations Health Authority<br />(Client-Based Academic Project)</div>
+  </div>
+  <div class="meta-item">
+    <div class="meta-label">Duration</div>
+    <div class="meta-value">June 2026 – Sep 2026 (12 Weeks)</div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section class="case-intro">
+  <p>FNHA's mental health provider directory was a 2,400-row spreadsheet and a Google Map with overlapping pins: comprehensive, but not usable. Our team redesigned it as a mobile-first platform that lets people search and filter by what actually matters to them — cultural safety, availability, language, and identity — instead of scrolling through unfamiliar clinical terminology.</p>
+  <p>As one of two UX/UI designers on Team Trestle, I helped shape the desktop wireframes and design system behind the experience, validated across two rounds of usability testing with 38 total participants before handoff to FNHA.</p>
+</section>
+
+<div class="media-block">
+  <div class="media-photo">
+    <img class="lightbox-trigger" src="assets/provider-directory-overview.png" alt="FNHA provider directory shown on tablet and phone" loading="lazy" />
+  </div>
+</div>
+
+<div class="rule"></div>
+
+<div class="case-body">
+  <nav class="case-sidebar" aria-label="Section navigation">
+    <ul>
+      <li><a href="#challenge">Challenge</a></li>
+      <li><a href="#approach">Approach</a></li>
+      <li><a href="#decision">Decision</a></li>
+      <li><a href="#reflection">Reflection</a></li>
+    </ul>
+  </nav>
+
+  <div class="case-sections">
+
+    <section class="case-section" id="challenge">
+      <span class="section-label">Identifying the Gap</span>
+      <p>The First Nations Health Authority provides mental health benefits to over 150,000 eligible Status First Nations people across BC, through a directory of 2,400+ registered counsellors. The gap isn't only digital — 47% of off-reserve First Nations people needed mental health care in the past year, and only 28% had their needs fully met. Interviews with FNHA staff echoed the data: some people don't know the benefit exists at all, remote communities struggle to access the directory in the first place, and even people who find it get stuck on professional designations — RCC, CCC, RSW — that mean nothing to someone searching for help.</p>
+      <p>Underneath the usability problems sat something harder to design for: trust. Historical trauma from residential schools and Indian Hospitals shapes how many people approach healthcare systems, and nearly a quarter of off-reserve First Nations people report experiencing discrimination in healthcare settings. A faster search bar wouldn't fix that on its own — the experience itself had to feel safe before it could feel usable.</p>
+      <p class="pull-quote">"How might we help FNHA users quickly discover and confidently choose a mental health provider that matches their needs, while reducing cognitive load and making the search experience intuitive and culturally supportive?"</p>
+    </section>
+
+    <section class="case-section" id="approach">
+      <div class="content-rule"></div>
+      <span class="section-label">Understanding &amp; Validating</span>
+      <h2>Research Approach &amp; Insights</h2>
+      <p>Each of the six team members owned a different research lens — Indigenous language and health outcomes, on-reserve broadband access, digital literacy, healthcare discrimination — so our direction came from a shared, multi-dimensional picture instead of one person's assumptions.</p>
+      <div class="callout-box">
+        <div class="callout-label">What research surfaced:</div>
+        <ul>
+          <li>The headline wasn't search UX — it was awareness. FNHA staff told us plainly that some people don't know the mental health benefit exists.</li>
+          <li>Two groups explored two directions in parallel: enhancing the existing Google Maps embed, or building a standalone platform. The standalone platform won — more build effort, but full ownership of the experience.</li>
+          <li>AI-assisted conversational guidance was scoped out early after we flagged it as a privacy risk — recommending providers from described symptoms would mean processing sensitive health data the directory was never built to hold.</li>
+        </ul>
+      </div>
+      <p>Those findings confirmed that clarity and trust mattered as much as performance, which led us to design a guided landing experience rather than dropping users straight into a search bar.</p>
+
+      <div class="media-photo">
+        <img class="lightbox-trigger" src="assets/provider-directory-research.jpg" alt="Team Trestle sorting research findings into an affinity map on a whiteboard" loading="lazy" />
+      </div>
+
+      <h3 style="font-family: var(--serif); color: var(--indigo); font-size: 20px; margin: 8px 0 0;">User Testing &amp; Iterations</h3>
+      <div class="approach-grid">
+        <div class="approach-card">
+          <h3>Internal Testing</h3>
+          <div>
+            <h4>Format</h4>
+            <p>An internal comparison test at the Centre for Digital Media, pitting a Figma prototype against a parallel build in Lovable.</p>
+          </div>
+          <div>
+            <h4>What we found</h4>
+            <p>People didn't understand provider designation codes (RCC, CCC, RSW), several missed the map/list toggle entirely, and provider cards read as overloaded with information.</p>
+          </div>
+          <div>
+            <h4>What changed</h4>
+            <p>Designation codes got plain-language labels and tooltips, and provider cards were trimmed down to the fields people actually scanned for first.</p>
+          </div>
+        </div>
+        <div class="approach-card">
+          <h3>External Testing</h3>
+          <div>
+            <h4>Format</h4>
+            <p>An external round at the CDM Testing Showcase with 33 participants.</p>
+          </div>
+          <div>
+            <h4>What we found</h4>
+            <p>An 85% task completion rate and 8+/10 ratings on navigation and clarity — but people still expected a Google-like unified search bar, and selecting multiple filters within one category returned zero results instead of broadening the search.</p>
+          </div>
+          <div>
+            <h4>What changed</h4>
+            <p>The search bar collapsed into a single unified field, and filter logic within a category switched to broaden results instead of narrowing them to nothing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="media-photo">
+        <img class="lightbox-trigger" src="assets/provider-directory-testing.jpg" alt="Team Trestle presenting at the CDM Testing Showcase" loading="lazy" />
+      </div>
+    </section>
+
+    <section class="case-section" id="decision">
+      <div class="content-rule"></div>
+      <span class="section-label">Designing the Solution</span>
+      <div class="decision-intro">
+        <h2>Wireframes &amp; Features</h2>
+        <p>Before wireframing, two groups explored two directions in parallel: enhancing the existing Google Maps embed with better filters, or building a standalone platform. The standalone platform won — more ownership of the experience and room to design the system end to end, even at the cost of more build effort.</p>
+        <p>Wireframing split by platform: I designed and refined the desktop wireframes and design system — colors, typography, reusable UI components — that both the desktop and mobile builds were built on, before handing off for development.</p>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a class="btn-pill btn-pill--filled" href="https://www.figma.com/design/gWqllpATVexJGUW8hl8b2a/Team-Trestle---FNHA?node-id=5-9&t=yDMxtjADj8phIy58-1" target="_blank" rel="noopener">Figma File</a>
+          <a class="btn-pill btn-pill--accent" href="https://trestle-fnha-web.vercel.app/" target="_blank" rel="noopener">Live Site</a>
+        </div>
+      </div>
+
+      <div class="feature-block feature-block--stacked">
+        <span class="feature-eyebrow">Feature 01</span>
+        <div class="feature-visual has-video">
+          <video class="lightbox-trigger" src="assets/video/provider-directory-search-filter.mov" controls preload="metadata" playsinline></video>
+        </div>
+        <div class="feature-copy">
+          <h3>Search &amp; Filter</h3>
+          <div>
+            <h4>Purpose</h4>
+            <p>Help people narrow 2,400+ providers down to the ones that actually match their needs, without reading a 2,400-row spreadsheet.</p>
+          </div>
+          <div>
+            <h4>What we designed</h4>
+            <ul>
+              <li>Multi-attribute filters — availability, cultural safety, region, age group, designation, LGBTQ2SIA+ — combined with a single unified search bar</li>
+              <li>Quick-access landing page shortcuts (Virtual Care, Available Now, Indigenous Providers, Affirming Care)</li>
+              <li>Plain-language labels and tooltips on every designation code, added directly in response to testers who didn't know what "RCC" meant</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-block feature-block--stacked">
+        <span class="feature-eyebrow">Feature 02</span>
+        <div class="feature-visual has-video">
+          <video class="lightbox-trigger" src="assets/video/provider-directory-profile-saved-list.mov" controls preload="metadata" playsinline></video>
+        </div>
+        <div class="feature-copy">
+          <h3>Provider Profiles &amp; Saved Lists</h3>
+          <div>
+            <h4>Purpose</h4>
+            <p>Let people compare providers and come back to a decision later, without re-searching or holding everything in their head.</p>
+          </div>
+          <div>
+            <h4>What we designed</h4>
+            <ul>
+              <li>Profiles organized into clear sections — services, cultural approach, accessibility, availability, referral requirements</li>
+              <li>A proactive notice when a saved or filtered provider requires a referral</li>
+              <li>A Report Issue button on every profile, and a Saved Providers list with immediate confirmation feedback</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-block feature-block--stacked">
+        <span class="feature-eyebrow">Feature 03</span>
+        <div class="feature-visual has-video">
+          <video class="lightbox-trigger" src="assets/video/provider-directory-admin-portal.mov" controls preload="metadata" playsinline></video>
+        </div>
+        <div class="feature-copy">
+          <h3>Admin Portal</h3>
+          <div>
+            <h4>Purpose</h4>
+            <p>Give FNHA staff ownership of their own data after handoff, instead of routing every update through the development team.</p>
+          </div>
+          <div>
+            <h4>What we designed</h4>
+            <ul>
+              <li>A separate authenticated application (Supabase Auth, Row Level Security) so provider data management never depends on client-side checks</li>
+              <li>A searchable, sortable, paginated provider data table for day-to-day maintenance</li>
+              <li>A report review queue so staff can triage and resolve issues users flag from the public directory</li>
+            </ul>
+            <p>This feature wasn't in the original brief — it surfaced mid-build, once the dev team discovered provider data was being hand-updated through a monthly PDF from another FNHA team entirely.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section" id="reflection">
+      <div class="content-rule"></div>
+      <span class="section-label">Reflection</span>
+      <p>As one of two UX/UI designers on the team, I worked across research and personas, led the desktop wireframes, and built the design system — color palette, typography, iconography — that carried through to development.</p>
+      <ul class="reflection-list">
+        <li><strong>Design deep around the persona you can actually research</strong> — we had limited access to our real target users for direct interviews, so rather than designing evenly across four personas, we chose one — an Elder user — and went deep on their needs.</li>
+        <li><strong>Watch what people do, not what the team is used to doing</strong> — our working assumption through week 5 was desktop-first. Internal testing showed participants reaching for mobile patterns instead, and the whole platform shifted to mobile-first from there.</li>
+        <li><strong>Staying with a research-backed decision is still a design decision</strong> — AI-assisted guidance stayed on the table from week two onward, but research kept pointing at discoverability and filtering as the real problem, not a recommendation engine.</li>
+        <li><strong>Design review doesn't end at handoff</strong> — after wireframes went to development, we kept checking the build against what was approved as filters, cards, and the map moved through multiple rounds of revision.</li>
+      </ul>
+      <p>Provider Directory reshaped how I think about scope: an admin portal nobody asked for in the brief ended up mattering as much to the real user experience as anything on the public-facing screens, because it's what lets FNHA keep this directory alive after we're gone.</p>
+    </section>
+
+  </div>
+</div>
+
+<div class="rule"></div>
+
+<section class="wrap">
+  <h2 class="more-heading">More Projects</h2>
+  <div class="more-grid">
+    <a class="more-card" href="babysteps.html">
+      <span class="more-card-num">Project 01</span>
+      <span class="more-title">BabySteps <svg class="arrow" viewBox="0 -960 960 960" fill="currentColor" aria-hidden="true"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></span>
+    </a>
+    <a class="more-card" href="virtual-healthcare.html">
+      <span class="more-card-num">Project 03</span>
+      <span class="more-title">Breaking Language Barriers in Virtual Healthcare <svg class="arrow" viewBox="0 -960 960 960" fill="currentColor" aria-hidden="true"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></span>
+    </a>
+  </div>
+</section>
+
+<footer class="contact-footer">
+  <span class="contact-label">Get in touch at</span>
+  <a href="mailto:bam.yingchoncharoen@gmail.com">bam.yingchoncharoen@gmail.com</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
