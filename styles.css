@@ -285,6 +285,7 @@ ul {
 .project-card {
   border: 1.5px solid var(--ink);
   border-radius: var(--radius-lg);
+  background: #fffdfa;
   padding: 20px;
   display: flex;
   flex-direction: column;
