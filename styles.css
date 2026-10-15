@@ -996,7 +996,7 @@ ul {
 .about-hero {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 56px var(--gutter) 0;
+  padding: 96px var(--gutter) 0;
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: 64px;
@@ -1097,7 +1097,7 @@ ul {
 .archives-hero {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 56px var(--gutter) 40px;
+  padding: 96px var(--gutter) 40px;
 }
 
 .archives-hero h1 {
