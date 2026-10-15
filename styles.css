@@ -1041,22 +1041,22 @@ ul {
 .competency-card {
   border: 1.5px solid var(--line);
   border-radius: var(--radius-md);
-  padding: 20px 22px;
-  margin-bottom: 16px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
 }
 
 .competency-card h3 {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   font-family: var(--sans);
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--olive);
 }
 
 .competency-card p {
   margin: 0;
-  font-size: 14.5px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.55;
   color: var(--ink-soft);
 }
 
