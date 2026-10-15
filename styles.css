@@ -1032,7 +1032,7 @@ ul {
 
 .competencies h2 {
   margin: 0 0 20px;
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 24px;
   font-weight: 700;
   color: var(--indigo);
