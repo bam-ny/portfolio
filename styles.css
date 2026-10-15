@@ -36,16 +36,16 @@
 }
 
 :root {
-  --bg: #faf6ec;
+  --bg: #fffaf5;
   --ink: #1a1a1a;
   --ink-soft: #55534d;
-  --indigo: #2c2860;
-  --indigo-soft: #4a4590;
-  --olive: #a9a53a;
-  --yellow: #eae87f;
-  --yellow-soft: #f0efb0;
+  --indigo: #383e8d;
+  --indigo-soft: #32387f;
+  --olive: #9a9b00;
+  --yellow: #cdcf00;
+  --yellow-soft: #f0f0b0;
   --line: #d8d4c4;
-  --line-strong: #2c2860;
+  --line-strong: #383e8d;
   --placeholder: #d9d8d3;
   --placeholder-dark: #1c1c1c;
   --radius-lg: 24px;
