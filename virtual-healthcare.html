@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Breaking Language Barriers in Virtual Healthcare — .bam</title>
-<meta name="description" content="Building an AI-powered platform that helps newcomers and healthcare providers understand each other in virtual care." />
+<meta name="description" content="Designing an AI-assisted virtual healthcare experience to support clearer communication between newcomers to Canada and healthcare professionals." />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -26,7 +26,7 @@
 
 <header class="case-hero">
   <h1>Breaking Language Barriers in Virtual Healthcare</h1>
-  <p class="case-subtitle">Building an AI-powered platform that helps newcomers and healthcare providers understand each other in virtual care</p>
+  <p class="case-subtitle">Designing an AI-assisted virtual healthcare experience to support clearer communication between newcomers to Canada and healthcare professionals.</p>
 </header>
 
 <div class="rule"></div>
@@ -53,9 +53,14 @@
 <div class="rule"></div>
 
 <section class="case-intro">
-  <p>Unlike our other capstone projects, which came with an assigned brief, we picked the problem space ourselves. We chose language access in healthcare as a team because we'd each watched a friend or family member struggle with it firsthand.</p>
-  <p>This project explores how AI can close the communication gap between a newcomer patient and their provider. As a team, we researched, designed a platform — a patient-facing app paired with an AI assistant that supports communication before, during, and after a virtual appointment — wrote user-generated summaries, and tested with real prototypes.</p>
-  <p>I led research planning and test scripting, worked across both the newcomer and provider sides, and owned the visual design system used across the final prototypes.</p>
+  <p>Language barriers can make accessing healthcare challenging for newcomers to Canada, particularly when navigating unfamiliar medical terminology, communicating symptoms, and understanding treatment instructions. This project explored how AI-assisted tools could reduce communication gaps between newcomer patients and healthcare professionals during virtual consultations.</p>
+  <p>Our team designed a virtual healthcare dashboard that supports patients and healthcare providers throughout the consultation journey, from finding an appropriate specialist to communicating during appointments and reviewing medical information afterward.</p>
+</section>
+
+<section class="case-intro" style="margin-top: 28px;">
+  <span class="section-label">My Contributions</span>
+  <p>As the Lead UI/UX Designer, I contributed throughout the design process, from research and ideation to prototyping and usability testing.</p>
+  <p>My responsibilities included developing user flows and wireframes, creating the visual design system, writing usability test scripts, helping launch testing sessions, and collaborating with the team to refine the prototypes based on user feedback.</p>
 </section>
 
 <div class="media-block">
@@ -80,79 +85,109 @@
 
     <section class="case-section" id="challenge">
       <span class="section-label">Identifying the Gap</span>
-      <p>Language barriers are one of the most overlooked gaps in virtual healthcare. For newcomers who don't speak English or French fluently, a video call with a doctor can mean misunderstood instructions, delayed treatment, and real anxiety about whether they were even understood correctly.</p>
-      <div class="callout-box">
-        <ul>
-          <li>Patients facing language barriers face a 30% higher rate of harmful events than patients who speak an official language (CanHealth.com)</li>
-          <li>15,474 Canadians died waiting for care in 2023–2024 (SecondStreet.org) — a system already strained, with language adding another point of failure</li>
-          <li>Medical interpreters and multilingual staff help, but they're inconsistently available, especially in virtual settings where there's no front desk to flag the issue</li>
-        </ul>
+      <p>For newcomers who are not fluent in English or French, accessing healthcare involves more than finding an available doctor. Language differences can create difficulties when describing symptoms, understanding medical terminology, and following treatment recommendations.</p>
+      <p>These challenges also affect healthcare professionals, who need to communicate medical information accurately while ensuring patients understand their care.</p>
+      <p>Although medical interpreters and multilingual healthcare professionals can help address these barriers, they may not always be available, particularly in virtual healthcare settings.</p>
+      <div class="testimonial-block">
+        <blockquote>"It would be unsafe to do medicine if neither of us understand each other."</blockquote>
+        <cite>— Healthcare Provider</cite>
+        <blockquote>"Medical terminology is quite complicated... it's hard to understand what the doctors are saying." — Newcomer Patient</blockquote>
       </div>
-      <p class="pull-quote">"It would be unsafe to do medicine if neither of us understand each other." — Healthcare Provider</p>
-      <p class="pull-quote">"Medical terminology is quite complicated... it's hard to understand what the doctors are saying." — Newcomer Patient</p>
-      <p class="pull-quote">"How might we help newcomers and healthcare providers communicate effectively in virtual healthcare, despite language barriers?"</p>
+      <p class="pull-quote">"How might we reduce language barriers in virtual healthcare to help newcomers communicate with healthcare professionals more confidently and understand their medical care?"</p>
     </section>
 
     <section class="case-section" id="approach">
       <div class="content-rule"></div>
       <span class="section-label">Understanding &amp; Validating</span>
-      <h2>Research Approach &amp; Insights</h2>
-      <p>We ran a mixed-method study with two groups: newcomers to Canada (0–3 years) and healthcare professionals with virtual care experience, using semi-structured interviews (30–45 mins), surveys, and secondary research on healthcare accessibility.</p>
+      <h2>Researching Both Sides of the Healthcare Experience</h2>
+      <p>To understand the challenges experienced by patients and healthcare professionals, our team used a mixed-method research approach that included interviews, online surveys, and secondary research.</p>
+      <p>We interviewed 10 participants, including:</p>
+      <ul class="disc-list">
+        <li>6 healthcare professionals</li>
+        <li>4 newcomers to Canada</li>
+      </ul>
+      <p>Our research focused on communication challenges, healthcare accessibility, and opportunities for AI-assisted tools to support virtual consultations.</p>
+
       <div class="callout-box">
-        <div class="callout-label">Key insights:</div>
-        <ul>
-          <li>Communication breakdowns are a safety issue, not just an inconvenience — even confident English speakers get lost in medical terminology.</li>
-          <li>Patients lean on people, not tools — most newcomers bring a family member to interpret rather than trust a translation app.</li>
-          <li>Providers protect themselves by refusing unclear consultations — understandable, but it delays care further.</li>
-          <li>Existing virtual care platforms have no real-time language support built in.</li>
-        </ul>
+        <div class="callout-label">From Research to Design Opportunities</div>
+        <p>We explored how the virtual healthcare experience could better support both user groups across three key stages.</p>
+        <div>
+          <h4 style="font-family: var(--serif); color: var(--indigo); font-size: 17px; text-transform: none; opacity: 1; letter-spacing: normal; margin: 0 0 6px;">01 — Before the Consultation</h4>
+          <p>Newcomers may be unfamiliar with the Canadian healthcare system and uncertain about which specialist to consult.</p>
+          <p><strong style="color: var(--olive);">Design opportunity:</strong> Provide symptom-based assistance and specialist recommendations to simplify the appointment-booking process.</p>
+        </div>
+        <div>
+          <h4 style="font-family: var(--serif); color: var(--indigo); font-size: 17px; text-transform: none; opacity: 1; letter-spacing: normal; margin: 0 0 6px;">02 — During the Consultation</h4>
+          <p>Language differences and complex medical terminology can make it difficult for patients and healthcare providers to communicate accurately.</p>
+          <p><strong style="color: var(--olive);">Design opportunity:</strong> Introduce real-time translated captions and terminology correction tools to support clearer communication.</p>
+        </div>
+        <div>
+          <h4 style="font-family: var(--serif); color: var(--indigo); font-size: 17px; text-transform: none; opacity: 1; letter-spacing: normal; margin: 0 0 6px;">03 — After the Consultation</h4>
+          <p>Patients may struggle to understand medical summaries, prescriptions, and follow-up instructions, particularly when the information is presented in an unfamiliar language.</p>
+          <p><strong style="color: var(--olive);">Design opportunity:</strong> Provide translated consultation summaries and accessible explanations of medical terminology.</p>
+        </div>
       </div>
-      <p>These insights shaped our first wireframes: an AI assistant to triage and schedule before the call, live translation during it, and a reviewable summary after it.</p>
+
+      <h2>Mapping the User Journey</h2>
+      <p>We organized the platform around three connected user flows: pre-consultation, during consultation, and post-consultation.</p>
+      <p>The flows covered the patient's journey from symptom assistance and appointment booking to virtual consultation, summary review, and follow-up scheduling.</p>
+      <p>We also developed a separate healthcare provider flow focused on correcting translations, reviewing flagged terminology, editing consultation summaries, and approving medical information.</p>
+      <p>This helped us consider the needs of both user groups rather than designing solely from the patient's perspective.</p>
 
       <div class="media-photo">
         <img class="lightbox-trigger" src="assets/virtual-healthcare-research-board.png" alt="FigJam research board: competitive landscape analysis and early user flow mapping" loading="lazy" />
       </div>
 
-      <h3 style="font-family: var(--serif); color: var(--indigo); font-size: 20px; margin: 8px 0 0;">User Testing &amp; Iterations</h3>
-      <p>We structured our testing using the DECIDE framework — defining goals, exploring key questions (how intuitive is the platform for non-English speakers? do AI translations actually bridge the gap in real time?), and running task-based tests on UserTesting.com with think-aloud verbal responses and post-test questions.</p>
+      <h2>Evaluating the Experience with Two User Groups</h2>
+      <p>To evaluate the usability of our prototype, we conducted two rounds of usability testing through UserTesting.com.</p>
+      <p>We used the <strong>DECIDE framework</strong> to structure the evaluation and developed task-based testing scripts for newcomer patients and healthcare professionals.</p>
+      <p>The tests focused on navigation, feature clarity, task completion, and the overall consultation experience.</p>
 
       <div class="approach-grid">
         <div class="approach-card">
-          <h3>Round 1</h3>
+          <h3>Round 1 — Identifying Usability Issues</h3>
           <div>
             <h4>Format</h4>
-            <p>We tested newcomer and provider flows separately, each through a 5–7 task script: book an appointment, join a call, flag a mistranslated term, read a post-meeting summary, book a follow-up.</p>
+            <p>Tested newcomer and healthcare provider flows separately using task-based scenarios and think-aloud feedback.</p>
           </div>
           <div>
             <h4>Findings</h4>
-            <ul style="padding-left: 18px; display: flex; flex-direction: column; gap: 8px;">
+            <ul>
               <li>Newcomers found navigation intuitive but got stuck on the Flag feature — one tester completed the task but "wasn't sure of its purpose or functionality," and another couldn't tell the live caption apart from a transcript.</li>
               <li>Providers called the platform "very easy" and "well built," but the summary-generation step confused them — several expected to generate notes during the call, not after leaving it.</li>
               <li>One provider pushed on medical accuracy itself: she wanted a way to cross-check AI-suggested terminology against a clinical reference, not just trust it outright.</li>
             </ul>
           </div>
           <div>
-            <h4>What changed before Round 2</h4>
-            <p>We combined the two flows into a single test script, translated the newcomer wireframes into Mandarin to test comprehension directly, and added a hover/tap definition layer for flagged terms.</p>
+            <h4>What We Changed</h4>
+            <ul>
+              <li>Improved the visibility of the Flag feature and refined the meeting interface.</li>
+              <li>Adjusted screen layouts and navigation to improve clarity.</li>
+              <li>Combined both user flows into one test and translated the newcomer prototype into Mandarin for Round 2.</li>
+            </ul>
           </div>
         </div>
         <div class="approach-card">
-          <h3>Round 2</h3>
+          <h3>Round 2 — Validating Improvements</h3>
           <div>
             <h4>Format</h4>
-            <p>We re-ran testing with the merged flow and the Mandarin version, using the same task structure plus 5-point ease ratings on key steps.</p>
+            <p>Tested the refined prototype, including the Mandarin newcomer flow, using task-based scenarios and five-point ease-of-use ratings.</p>
           </div>
           <div>
             <h4>Findings</h4>
-            <ul style="padding-left: 18px; display: flex; flex-direction: column; gap: 8px;">
+            <ul>
               <li>The fixes worked — testers now completed the AI-matching and flagging tasks "quickly" and rated most steps "very easy."</li>
-              <li>But it surfaced a new, more interesting gap: testers could flag a confusing term, but still didn't understand what it meant once flagged.</li>
-              <li>Providers still wanted a clearer way to edit summary notes directly — several expected a "click and type, like a Word doc" experience.</li>
+              <li>But it surfaced a new, more interesting gap: testers could flag a confusing term, but still didn't understand what the term meant once flagged. One tester explicitly wanted a hover-to-reveal definition rather than just a correction tool — a distinction we hadn't designed for in round 1.</li>
+              <li>Providers still wanted a clearer way to edit summary notes directly — several expected a "click and type, like a Word doc" experience rather than a review-and-approve flow.</li>
             </ul>
           </div>
           <div>
-            <h4>What changed as a result</h4>
-            <p>A hover/tap definition layer on flagged terms, clearer edit affordances in the summary review, and a visually separated live-translation view from the post-meeting transcript.</p>
+            <h4>What We Changed</h4>
+            <ul>
+              <li>Refined terminology correction interactions and explanations for flagged terms.</li>
+              <li>Improved the clarity of summary-review and editing controls.</li>
+              <li>Further refined high-fidelity wireframes and prototypes based on feedback.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -162,7 +197,7 @@
       <div class="content-rule"></div>
       <span class="section-label">Designing the Solution</span>
       <div class="decision-intro">
-        <h2>User Flow</h2>
+        <h2>Translating Research into an AI-Assisted Healthcare Experience</h2>
 
         <div class="flow-toggle">
           <div class="flow-toggle-panel is-active">
@@ -187,13 +222,27 @@
           </div>
         </div>
 
-        <p>The final experience is structured around three moments in the patient journey. We mapped each stage from lo-fi sketches through mid-fi wireframes before locking the flow:</p>
-        <ul class="reflection-list">
-          <li><strong>Pre-meeting</strong> — Patient logs in, describes symptoms to an AI assistant, gets matched to a specialist, and books the earliest available appointment.</li>
-          <li><strong>During the meeting</strong> — Patient joins the call, AI detects their language and turns on live translated captions, and either party can flag a term that seems mistranslated or unclear.</li>
-          <li><strong>Post-meeting</strong> — Patient returns to the dashboard, reviews the AI-drafted, doctor-approved summary in their own language, looks up any unfamiliar terms, and books a follow-up if needed.</li>
-        </ul>
-        <p>On the provider side, the flow mirrors this: review patient intake info → join the call and correct any mistranslated terms in real time → review and approve the AI-generated summary, flagged terms, and prescription before it's released to the patient.</p>
+        <p>Based on our research and initial concepts, we developed a virtual healthcare dashboard with features supporting communication before, during, and after medical consultations.</p>
+
+        <div>
+          <h3 style="font-family: var(--serif); color: var(--indigo); font-size: 19px; margin: 0 0 8px;">01 Before Consultation — Helping patients find the right healthcare professional</h3>
+          <p>We designed an AI assistant that allows patients to describe their symptoms and receive recommendations for appropriate medical specialists.</p>
+          <p>Patients can then review available providers and book a virtual appointment through the platform.</p>
+          <p>The goal was to reduce uncertainty when navigating an unfamiliar healthcare system and make the booking experience more straightforward.</p>
+        </div>
+
+        <div>
+          <h3 style="font-family: var(--serif); color: var(--indigo); font-size: 19px; margin: 0 0 8px;">02 During Consultation — Supporting clearer communication through real-time translation</h3>
+          <p>During virtual consultations, patients and healthcare professionals can use AI-generated translated captions to communicate across language differences.</p>
+          <p>We also introduced terminology correction features to address inaccurate translations. Patients can flag unfamiliar or incorrectly translated words for healthcare professionals to review, while providers can correct terminology to improve communication clarity.</p>
+        </div>
+
+        <div>
+          <h3 style="font-family: var(--serif); color: var(--indigo); font-size: 19px; margin: 0 0 8px;">03 After Consultation — Making medical information easier to understand</h3>
+          <p>Following a consultation, the platform generates summary notes for healthcare professionals to review, edit, and approve.</p>
+          <p>Once approved, the information can be translated into the patient's preferred language, allowing them to revisit treatment recommendations and medical instructions. Patients can also review unfamiliar terminology and schedule follow-up appointments.</p>
+        </div>
+
         <a class="btn-pill btn-pill--filled" href="https://www.figma.com/design/4l0QrjCD2YFV3zMUtMA4nb/WRK_Capstone-Project?node-id=234-1456&t=nEpXvG9rE4q56xNh-1" target="_blank" rel="noopener" style="width: fit-content;">Figma File</a>
       </div>
 
@@ -202,7 +251,7 @@
           <video class="lightbox-trigger" src="assets/video/virtual-healthcare-newcomer-flow.mov" controls preload="metadata" playsinline></video>
         </div>
         <h3 style="font-family: var(--serif); color: var(--indigo); font-size: 20px;">Prototype — Newcomer</h3>
-        <p>The newcomer-facing prototype walks through the full patient journey: AI symptom intake, specialist matching and booking, the live-translated call with the Flag feature, and the post-meeting summary with definitions and voice-over. This is the version we translated into Mandarin for Round 2 testing.</p>
+        <p>The newcomer-facing prototype walks through the full patient journey: AI symptom intake, specialist matching and booking, the live-translated call screen with the Flag feature, and the post-meeting summary with definitions and voice-over. This is the version we translated into Mandarin for round 2 testing.</p>
       </div>
 
       <div class="decision-intro">
@@ -210,7 +259,7 @@
           <video class="lightbox-trigger" src="assets/video/virtual-healthcare-provider-flow.mov" controls preload="metadata" playsinline></video>
         </div>
         <h3 style="font-family: var(--serif); color: var(--indigo); font-size: 20px;">Prototype — Provider Dashboard</h3>
-        <p>The provider-facing prototype centers on the dashboard view: patient information pulled ahead of the call, the live-caption and correction screen during the meeting, and the summary-review screen where providers edit flagged terms and approve the translated notes before they're released to the patient.</p>
+        <p>The provider-facing prototype centers on the dashboard view: patient information pulled in ahead of the call, the live-caption and correction screen during the meeting, and the summary-review screen where providers edit notes, resolve flagged terms, and approve the prescription before it's translated and released to the patient.</p>
       </div>
 
       <div class="decision-intro">
@@ -219,17 +268,17 @@
           <div class="approach-card">
             <span class="approach-num">01</span>
             <h3>AI Bot Assistant</h3>
-            <p>Analyzes reported symptoms to recommend a specialist, books the earliest available appointment, and prepares the provider with a summary ahead of the call.</p>
+            <p>Takes in patient-reported symptoms, recommends the right specialist, books the earliest available appointment, and prepares a preliminary summary for the provider ahead of the call.</p>
           </div>
           <div class="approach-card">
             <span class="approach-num">02</span>
             <h3>Real-Time AI Translation &amp; Captioning</h3>
-            <p>Captions the call live in both directions, flags uncertain terms, and lets either party correct a mistranslation on the spot.</p>
+            <p>Live translated captions with automatic language detection, a medical-terminology engine that flags misspellings or unclear terms, and (after round 2 testing) a hover-to-reveal definition for any flagged word.</p>
           </div>
           <div class="approach-card">
             <span class="approach-num">03</span>
             <h3>AI-Translated Dashboard &amp; Post-Meeting Summary</h3>
-            <p>Generates a provider-reviewed summary — instructions and prescriptions included — and translates it into the patient's preferred language.</p>
+            <p>Surfaces patient intake info, flagged terms, and an AI-drafted consultation summary for the provider to edit and approve. Once approved, it's auto-translated into the patient's preferred language, with a voice-over option.</p>
           </div>
         </div>
         <div class="carousel">
@@ -260,15 +309,15 @@
 
     <section class="case-section" id="reflection">
       <div class="content-rule"></div>
-      <span class="section-label">Learnings &amp; Growth</span>
-      <p>Across two rounds of testing, the AI-powered symptom suggestion, doctor-matching, and auto-generated summary notes consistently tested as the most valuable parts of the experience for newcomer patients, while providers found the platform professional and straightforward for reviewing patient information and handling notes.</p>
-      <ul class="reflection-list">
-        <li><strong>Trust needs a visible mechanism, not just a promise</strong> — the "Flag" feature for translation correction tested well, but users wanted more: live support and clearer in-the-moment explanations of flagged medical terms, not just a flag and a fix afterward.</li>
-        <li><strong>AI output still needs a human checkpoint</strong> — providers wanted clearer visual cues for errors or flagged terms, and more clarity in how AI-suggested terminology explained the original term's meaning, especially before approving a summary or prescription.</li>
-        <li><strong>Design for two very different users in one flow</strong> — newcomer patients and healthcare providers needed different levels of guidance at the same moments in the call, which shaped how we built the AI assistance around each role separately.</li>
-        <li><strong>Translating the prototype itself was part of the research</strong> — translating the newcomer flow into Mandarin for the second testing round surfaced accessibility gaps we wouldn't have caught testing in English alone.</li>
+      <span class="section-label">Learning &amp; Growth</span>
+      <p>This project challenged me to consider how AI-assisted technology can improve healthcare communication while balancing usability, accuracy, and the needs of different users.</p>
+      <ul class="disc-list">
+        <li><strong>Designing for different user needs:</strong> I learned to balance the needs of newcomers and healthcare professionals, who have different expectations and responsibilities, while creating a consistent user experience.</li>
+        <li><strong>Looking beyond visual design:</strong> Usability testing showed me that an interface can look intuitive but still cause confusion. Feedback on the Flag feature and summary editing reinforced the importance of clear interactions and navigation.</li>
+        <li><strong>Balancing AI with human oversight:</strong> This project helped me recognize the importance of transparency and accuracy in AI-assisted healthcare, particularly when medical information needs to be reviewed and verified.</li>
+        <li><strong>Taking ownership of design decisions:</strong> Leading the design process strengthened my confidence in evaluating feedback, communicating with team members, and making decisions while balancing user needs and project limitations.</li>
       </ul>
-      <p>Working across symptom-matching, live translation, and clinical documentation in one project meant constantly weighing convenience for the patient against accuracy and accountability for the provider — a tension that shaped nearly every design decision we made.</p>
+      <p>This experience strengthened my understanding of designing accessible, user-centred experiences while considering how technology can support people without replacing human judgment.</p>
     </section>
 
   </div>
