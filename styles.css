@@ -702,6 +702,26 @@ ul {
   line-height: 1.6;
 }
 
+.callout-box ul.callout-list--disc li {
+  list-style: disc;
+}
+
+/* Generic disc bullet list (bold lead-in + description) */
+
+.disc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.disc-list li {
+  list-style: disc;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 72ch;
+}
+
 /* Decision intro */
 
 .decision-intro {
