@@ -622,6 +622,7 @@ ul {
 .approach-card {
   border: 1.5px solid var(--line);
   border-radius: var(--radius-md);
+  background: #fffdfa;
   padding: 26px;
   display: flex;
   flex-direction: column;
@@ -677,6 +678,7 @@ ul {
 .callout-box {
   border: 1.5px solid var(--line);
   border-radius: var(--radius-md);
+  background: #fffdfa;
   padding: 28px;
   display: flex;
   flex-direction: column;
