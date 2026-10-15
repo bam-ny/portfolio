@@ -658,6 +658,20 @@ ul {
   opacity: 0.5;
 }
 
+.approach-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 18px;
+}
+
+.approach-card li {
+  list-style: disc;
+  font-size: 14.5px;
+  line-height: 1.65;
+  opacity: 0.85;
+}
+
 /* Callout box (research insights / stats) */
 
 .callout-box {
