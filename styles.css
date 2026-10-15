@@ -844,6 +844,32 @@ ul {
   opacity: 0.6;
 }
 
+.quote-stack {
+  border-left: 3px solid var(--yellow);
+  padding-left: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.quote-stack blockquote {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(17px, 2vw, 20px);
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.quote-stack cite {
+  font-style: italic;
+  font-family: var(--serif);
+  font-size: clamp(17px, 2vw, 20px);
+  color: var(--ink-soft);
+  opacity: 0.85;
+}
+
 /* Reflection */
 
 .reflection-list {
